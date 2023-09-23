@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+.search-bar{
+    
+    display: flex;
+    gap: 15px;
+}
+#searchInput{
+ flex: 5;
+ padding: 15px;
+ font-size: 20px;
+}
+#searchButton{
+flex: 1;
+padding: 15px;
+font-size: 20px;
+cursor: pointer;
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+
+}
+#searchButton:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.bottom{
+    padding: 25px;
+    /* border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000; */
+background: #D9D9D9;
+}
+.btns{
+padding: 15px 45px;
+font-size: 20px;
+cursor: pointer;
+background-color: black;
+color: white;
+border: none;
+margin-top: 20px;
+border-radius: 5px;
+
+}
+.btns-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
